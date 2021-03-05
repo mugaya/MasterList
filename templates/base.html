@@ -11,6 +11,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+		<link rel="stylesheet" href="{% static 'plugins/bootstrap-5.0.0/css/bootstrap.min.css' %}" />
 	</head>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
@@ -32,14 +33,25 @@
 									<li>
 										<a href="{% url 'listings' %}">Listings</a>
 										<ul>
-											<li><a href="/listings/hf/">Health Facilities</a></li>
-											<li><a href="/listings/ph/">Pharmacies</a></li>
-											<li><a href="#">Others</a></li>
+											<li><a href="{% url 'listings' lid=1 %}">Health Facilities</a></li>
+											<li><a href="{% url 'listings' lid=2 %}">Pharmacies</a></li>
+											<li><a href="{% url 'listings' lid=3 %}">Others</a></li>
 										</ul>
 									</li>
 									<li><a href="{% url 'search' %}">Search</a></li>
-									<li><a href="/api/">API</a></li>
-									<li><a href="/reports/">Reports</a></li>
+									<li><a href="{% url 'api_home' %}">API</a></li>
+									<li><a href="{% url 'reports_home' %}">Reports</a></li>
+                                    {% if user.is_authenticated %}
+                                    <li>
+										<a href="{% url 'listings' %}">Hi {{ request.user.username }}!</a>
+									    <ul>
+											<li><a href="/admin/">Administration</a></li>
+											<li><a href="{% url 'logout' %}">Logout</a></li>
+										</ul>
+									</li>
+									{% else %}
+									<li><a href="{% url 'login' %}">Login</a></li>
+									{% endif %}
 								</ul>
 							</nav>
 
@@ -103,6 +115,8 @@ in the health sector (for instance - health facilities, people, institutions, sc
 			<script src="{% static 'js/breakpoints.min.js' %}"></script>
 			<script src="{% static 'js/util.js' %}"></script>
 			<script src="{% static 'js/main.js' %}"></script>
+			<script src="{% static 'plugins/bootstrap-5.0.0/js/bootstrap.bundle.min.js' %}"></script>
+			
 
 	</body>
 </html>

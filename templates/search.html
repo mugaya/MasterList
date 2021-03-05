@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load static %}
+| {% block page_title %} Search {% endblock %}
 {% block primary %}
 <!-- Main -->
 	<div id="main-wrapper">
@@ -7,15 +8,16 @@
 			<div class="row gtr-200">
 				<div class="col-4 col-12-medium">
 					<div id="sidebar">
-
+                        <form id="MasterList" method="GET" action=".">
 						<!-- Sidebar -->
 							<section>
 								<h3>Search Params</h3>
-								<p>Details</p>
+								{{ form.name }}
 								<footer>
-									<a href="#" class="button icon solid fa-info-circle">Find out more</a>
+									<button type="submit" class="button icon solid fa-info-circle">Search</button>
 								</footer>
 							</section>
+						</form>
 
 
 					</div>

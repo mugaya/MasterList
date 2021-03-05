@@ -14,12 +14,27 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 import ml_main.views as main_views
+import ml_auth.views as auth_views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main_views.home, name='home'),
     path('listings', main_views.listings, name='listings'),
+    path('listings/cat-<int:lid>/', main_views.listings, name='listings'),
     path('search/', main_views.search, name='search'),
+    path('api/v1/', include('ml_api.urls')),
+    path('reports/', include('ml_reports.urls')),
+    path('login/', auth_views.log_in, name='login'),
+    path('logout/', auth_views.log_out, name='logout'),
 ]
+
+handler400 = 'master_list.views.handler_400'
+handler404 = 'master_list.views.handler_404'
+handler500 = 'master_list.views.handler_500'
+
+admin.site.site_header = 'Master List Administration'
+admin.site.site_title = 'Master List administration'
+admin.site.index_title = 'Master list admin'
