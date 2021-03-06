@@ -1,12 +1,14 @@
 from django.shortcuts import render
 from .forms import MasterListForm
-from .functions import handle_search
+from .functions import handle_search, get_listings
 
 
 def home(request):
     """Home view."""
     try:
-        return render(request, 'home.html')
+        listings = get_listings(request)
+        counts = listings.count() if listings else 0
+        return render(request, 'home.html', {'counts': counts})
     except Exception as e:
         raise e
     else:
