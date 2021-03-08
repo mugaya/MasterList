@@ -1,0 +1,410 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "CANCER SCREENING",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "MORTUARY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "FORENSIC SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "AMBULATORY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "PHARMACY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "LABORATORY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "DENTAL SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "MENTAL HEALTH SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "OPHTHALMIC SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "REHABILITATION SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "SPECIALIZED OUTPATIENTS CLINIC",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "RENAL SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "HOSPICE SERVICE",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "HIGH DEPENDENCY SERVICES",
+            "category_abbr": "HDU"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "ICU SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "ACCIDENT AND EMERGENCY CASUALTY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "ONCOLOGY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "EMERGENCY PREPAREDNESS",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "OPERATING THEATRES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "RADIOLOGY AND IMAGING",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 21,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "BLOOD TRANSFUSION SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 22,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "LEPROSY TREATMENT",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 23,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "LEPROSY DIAGNOSIS",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 24,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "TUBERCULOSIS TREATMENTS",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 25,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "TUBERCULOSIS DIAGNOSIS",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 26,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "INTEGRATED MANAGEMENT OF CHILDHOOD ILLNESS",
+            "category_abbr": "IMCI"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "IMMUNISATION",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 28,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "YOUTH FRIENDLY SERVICES",
+            "category_abbr": "YFS"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "SERVICES FOR GENDER BASED VIOLENCE SURVIVORS",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 30,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "POSTNATAL CARE SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 31,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "ANTENATAL CARE",
+            "category_abbr": "ANC"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "FAMILY PLANNING",
+            "category_abbr": "F.P"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "NEWBORN CARE SERVICE",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 34,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "MATERNITY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 35,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "HIV TREATMENT",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 36,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "HIV & STI PREVENTION",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 37,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "CURATIVE SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 38,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "EAR, NOSE AND THROAT (ENT) SERVICES",
+            "category_abbr": "ENT"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "ORTHOPAEDIC TECHNOLOGY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 40,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "PHYSIOTHERAPY",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 41,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "OCCUPATIONAL THERAPY",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 42,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "RADIOLOGY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 43,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "MAGNETIC RESONANCE IMAGING",
+            "category_abbr": "MRI"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "ECHOCARDIOGRAPHY",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 45,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "ULTRASOUND SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 46,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "RADIOGRAPHY SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 47,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "MEDICAL IMAGING",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 48,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "TUBERCULOSIS, LEPROSY AND LUNG DISEASES MANAGEMENT",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 49,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "REHABILITATIVE HEALTH SERVICES",
+            "category_abbr": ""
+        }
+    },
+    {
+        "pk": 50,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "TUBERCULOSIS",
+            "category_abbr": "TB"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "ml_setup.ServiceCategory",
+        "fields": {
+            "category_name": "RH",
+            "category_abbr": "RH"
+        }
+    }
+]

@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+| {% block page_title %} View Listing - {{ record.name }} {% endblock %}
+
+{% block style_code %}
+<link rel="stylesheet" href="{% static 'plugins/DataTables-1.10.23/css/datatables.min.css' %}" />
+{% endblock style_code %}
+{% block primary %}
+
+<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div id="content">
+				{% if user.is_authenticated %}
+                <div class="">
+                	<a href="{% url 'edit_listing' lid=record.id %}" class="button small icon solid fa-arrow-circle-right">Edit Facility</a>
+                	<button class="button small icon solid fa-trash">Delete Facility</button>
+                </div><br>
+                {% endif %}
+				<!-- Content -->
+					<article>
+                        <h2>{{ record.code }} | {{ record.name }}</h2>
+                        <table class="table">
+                        	<tr><td>Type</td><td>{{ record.facility_type }}</td></tr>
+                        	<tr><td>Owner</td><td>{{ record.owner_type }}</td></tr>
+                        	<tr><td>Regulatory Body</td><td></td></tr>
+                        	<tr><td>Operation Status</td><td> {% if record.is_operational %} Operational {% else %} Not Operational {% endif %}</td></tr>
+                        </table>
+                        <h2>Geo Locations</h2>
+
+                        <table class="table">
+                        	<tr><td>County</td><td>{{ geos.county }}</td></tr>
+                        	<tr><td>Consituency</td><td>{{ geos.constituency }}</td></tr>
+                        	<tr><td>Ward</td><td>{{ geos.ward }}</td></tr>
+                        	<tr><td>On the Map</td><td></td></tr>
+                        </table>
+
+                        <h2>Services</h2>
+
+                        <table class="table">
+                        	<thead>
+                        	<tr><th>Service</th><th>Category</th><th>Rating</th><th></th></tr>
+                        	</thead>
+                        	<tbody>
+                        		{% for service in services %}
+                                    <tr><td>{{ service.service.service_name }}</td><td>{{ service.service.category }}</td><td></td><td></td></tr>
+                        		{% endfor %}
+                        	</tbody>
+                        </table>
+
+
+					</article>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock primary %}
+{% block lazy_js %}
+<script src="{% static 'plugins/DataTables-1.10.23/js/datatables.min.js' %}"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#results-table').DataTable();
+} );
+</script>
+{% endblock lazy_js %}	

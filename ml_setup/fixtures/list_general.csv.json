@@ -1,0 +1,170 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "CTPA",
+            "item_description": "Postal Address",
+            "item_category": "Contact Type",
+            "item_sub_category": "",
+            "the_order": 1,
+            "field_name": "contact_type_id"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "CTFX",
+            "item_description": "Fax Number",
+            "item_category": "Contact Type",
+            "item_sub_category": "",
+            "the_order": 2,
+            "field_name": "contact_type_id"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "CTLL",
+            "item_description": "Telephone \u2013 Landline",
+            "item_category": "Contact Type",
+            "item_sub_category": "",
+            "the_order": 3,
+            "field_name": "contact_type_id"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "CTMN",
+            "item_description": "Telephone \u2013 Mobile",
+            "item_category": "Contact Type",
+            "item_sub_category": "",
+            "the_order": 4,
+            "field_name": "contact_type_id"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "CTEM",
+            "item_description": "Email address",
+            "item_category": "Contact Type",
+            "item_sub_category": "",
+            "the_order": 5,
+            "field_name": "contact_type_id"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "RSRE",
+            "item_description": "Registered",
+            "item_category": "Regulation Status",
+            "item_sub_category": "",
+            "the_order": 1,
+            "field_name": "regulation_status_id"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "RSPE",
+            "item_description": "Pending Registration",
+            "item_category": "Regulation Status",
+            "item_sub_category": "",
+            "the_order": 2,
+            "field_name": "regulation_status_id"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "RSPL",
+            "item_description": "Pending License",
+            "item_category": "Regulation Status",
+            "item_sub_category": "",
+            "the_order": 3,
+            "field_name": "regulation_status_id"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "RSPG",
+            "item_description": "Pending Gazettement",
+            "item_category": "Regulation Status",
+            "item_sub_category": "",
+            "the_order": 4,
+            "field_name": "regulation_status_id"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "RSLI",
+            "item_description": "Licensed",
+            "item_category": "Regulation Status",
+            "item_sub_category": "",
+            "the_order": 5,
+            "field_name": "regulation_status_id"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "RSLS",
+            "item_description": "License Suspended",
+            "item_category": "Regulation Status",
+            "item_sub_category": "",
+            "the_order": 6,
+            "field_name": "regulation_status_id"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "RSGA",
+            "item_description": "Gazetted",
+            "item_category": "Regulation Status",
+            "item_sub_category": "",
+            "the_order": 7,
+            "field_name": "regulation_status_id"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "AYES",
+            "item_description": "Yes",
+            "item_category": "Yes No Answer",
+            "item_sub_category": "",
+            "the_order": 1,
+            "field_name": "yes_no_id"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ml_setup.ListGeneral",
+        "fields": {
+            "item_id": "ANNO",
+            "item_description": "No",
+            "item_category": "Yes No Answer",
+            "item_sub_category": "",
+            "the_order": 2,
+            "field_name": "yes_no_id"
+        }
+    }
+]

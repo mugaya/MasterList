@@ -1,0 +1,378 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Mombasa",
+            "county_code": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kwale",
+            "county_code": 2
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kilifi",
+            "county_code": 3
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Tana River",
+            "county_code": 4
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Lamu",
+            "county_code": 5
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Taita Taveta",
+            "county_code": 6
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Garissa",
+            "county_code": 7
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Wajir",
+            "county_code": 8
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Mandera",
+            "county_code": 9
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Marsabit",
+            "county_code": 10
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Isiolo",
+            "county_code": 11
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Meru",
+            "county_code": 12
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Tharaka Nithi",
+            "county_code": 13
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Embu",
+            "county_code": 14
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kitui",
+            "county_code": 15
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Machakos",
+            "county_code": 16
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Makueni",
+            "county_code": 17
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Nyandarua",
+            "county_code": 18
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Nyeri",
+            "county_code": 19
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kirinyaga",
+            "county_code": 20
+        }
+    },
+    {
+        "pk": 21,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Muranga",
+            "county_code": 21
+        }
+    },
+    {
+        "pk": 22,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kiambu",
+            "county_code": 22
+        }
+    },
+    {
+        "pk": 23,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Turkana",
+            "county_code": 23
+        }
+    },
+    {
+        "pk": 24,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "West Pokot",
+            "county_code": 24
+        }
+    },
+    {
+        "pk": 25,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Samburu",
+            "county_code": 25
+        }
+    },
+    {
+        "pk": 26,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Trans Nzoia",
+            "county_code": 26
+        }
+    },
+    {
+        "pk": 27,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Uasin Gishu",
+            "county_code": 27
+        }
+    },
+    {
+        "pk": 28,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Elgeyo Marakwet",
+            "county_code": 28
+        }
+    },
+    {
+        "pk": 29,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Nandi",
+            "county_code": 29
+        }
+    },
+    {
+        "pk": 30,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Baringo",
+            "county_code": 30
+        }
+    },
+    {
+        "pk": 31,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Laikipia",
+            "county_code": 31
+        }
+    },
+    {
+        "pk": 32,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Nakuru",
+            "county_code": 32
+        }
+    },
+    {
+        "pk": 33,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Narok",
+            "county_code": 33
+        }
+    },
+    {
+        "pk": 34,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kajiado",
+            "county_code": 34
+        }
+    },
+    {
+        "pk": 35,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kericho",
+            "county_code": 35
+        }
+    },
+    {
+        "pk": 36,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Bomet",
+            "county_code": 36
+        }
+    },
+    {
+        "pk": 37,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kakamega",
+            "county_code": 37
+        }
+    },
+    {
+        "pk": 38,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Vihiga",
+            "county_code": 38
+        }
+    },
+    {
+        "pk": 39,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Bungoma",
+            "county_code": 39
+        }
+    },
+    {
+        "pk": 40,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Busia",
+            "county_code": 40
+        }
+    },
+    {
+        "pk": 41,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Siaya",
+            "county_code": 41
+        }
+    },
+    {
+        "pk": 42,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kisumu",
+            "county_code": 42
+        }
+    },
+    {
+        "pk": 43,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Homa Bay",
+            "county_code": 43
+        }
+    },
+    {
+        "pk": 44,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Migori",
+            "county_code": 44
+        }
+    },
+    {
+        "pk": 45,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Kisii",
+            "county_code": 45
+        }
+    },
+    {
+        "pk": 46,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Nyamira",
+            "county_code": 46
+        }
+    },
+    {
+        "pk": 47,
+        "model": "ml_setup.ListGeoCounty",
+        "fields": {
+            "county_name": "Nairobi",
+            "county_code": 47
+        }
+    }
+]

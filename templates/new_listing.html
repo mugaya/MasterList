@@ -1,0 +1,141 @@
+{% extends 'base.html' %}
+{% load static %}
+| {% block page_title %} Listings {% endblock %}
+
+{% block style_code %}
+<link rel="stylesheet" href="{% static 'plugins/jquery.steps-1.1.0/css/jquery.steps.css' %}" />
+{% endblock style_code %}
+{% block primary %}
+
+<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div id="content">
+				<!-- Content -->
+					<article>
+                        <div id="formWizard">
+						    <h3>Basic details</h3>
+						    <fieldset>
+						        <div class="row">
+				                    <div class="col-lg-6">
+				                        <div class="form-group">
+				                            <label for="name">Name</label>
+				                            {{ form.name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label for="official_name">Official Name</label>
+				                            {{ form.official_name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label for="reg_number">Registration Number</label>
+				                            {{ form.name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label for="keph_level">Keph Level</label>
+				                            {{ form.keph_level }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label for="keph_level">Approval Status</label>
+				                            {{ form.name }}
+				                        </div>
+				                    </div>
+				                    <div class="col-lg-6">
+				                        <div class="form-group">
+				                            <label for="facility_type">Facility Type</label>
+				                            {{ form.name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label for="facility_type">Owner Type</label>
+				                            {{ form.name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label>Is Facility Operational</label>
+				                            {{ form.name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label>Is Facility Approved (for Code Generation)</label>
+				                            {{ form.name }}
+				                        </div>
+				                    </div>
+				                    <div class="col-lg-12">
+				                        This is the basic Information regarding the registration of a facility and all fields are Mandatory. More fields are available in the edit functionality.
+				                    </div>
+				                </div>
+						    </fieldset>
+						    <h3>Geo Location</h3>
+						    <fieldset>
+						        <div class="row">
+				                    <div class="col-lg-6">
+				                        <div class="form-group">
+				                            <label for="name">County</label>
+				                            {{ form.name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label for="official_name">Subcounty</label>
+				                            {{ form.name }}
+				                        </div>
+
+				                    </div>
+				                    <div class="col-lg-6">
+				                        <div class="form-group">
+				                            <label for="facility_type">Constituency</label>
+				                            {{ form.name }}
+				                        </div>
+				                        <div class="form-group">
+				                            <label for="facility_type">Ward</label>
+				                            {{ form.name }}
+				                        </div>
+				                    </div>
+				                    <div class="col-lg-12">
+				                        Point location to be selected on the map.
+				                    </div>
+				                </div>
+						    </fieldset>
+						    <h3>Services</h3>
+						    <fieldset>
+						        <div class="row">
+				                    <div class="col-lg-6">
+				                        <div class="form-group">
+				                            <label for="name">Category</label>
+				                            {{ form.name }}
+				                        </div>
+				                    </div>
+				                    <div class="col-lg-6">
+				                        <div class="form-group">
+				                            <label for="facility_type">Service</label>
+				                            {{ form.name }}
+				                        </div>
+				                    </div>
+				                </div>
+						    </fieldset>
+						    <h3>Additional Information</h3>
+						    <fieldset>
+						        <p>The remaining data elements to be handled here.</p>
+						    </fieldset>
+						</div>                     
+
+
+					</article>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock primary %}
+{% block lazy_js %}
+<script src="{% static 'plugins/jquery.steps-1.1.0/js/jquery.steps.min.js' %}"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    
+
+    $("#formWizard").steps({
+        headerTag: "h3",
+        bodyTag: "fieldset",
+        transitionEffect: "slideLeft",
+        autoFocus: true
+    });
+
+
+} );
+</script>
+{% endblock lazy_js %}	

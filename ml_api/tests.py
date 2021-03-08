@@ -1,3 +1,35 @@
-from django.test import TestCase
+# from django.test import TestCase
+import requests
 
-# Create your tests here.
+# Tests for the API endpoints.
+
+base_url = 'http://localhost:8002/api/v1/facility'
+
+headers = {'Authorization': 'Token 760e0f1b4a9f3defa67926cad3634ec5fb0cbe42'}
+
+params = {
+    "name": "Test facility 007",
+    "official_name": "Test facility 007",
+    "reg_number": "1010",
+    "keph_level": 4,
+    "beds": 7,
+    "cots": 6,
+    "is_operational": True,
+    "facility_type": 1,
+    "owner_type": 1,
+    "approved": True
+}
+# Test delete
+test = 1
+if test == 0:
+    endpoint = 'f5ed43af-17dd-4cc4-9da7-8394039a8134/'
+    url = base_url + '/' + endpoint
+    response = requests.delete(url, headers=headers)
+    print(response.headers)
+    print(response.content)
+elif test == 1:
+    # Test create
+    url = base_url + '/'
+    response = requests.post(url, json=params, headers=headers)
+    print(response.headers)
+    print(response.json())

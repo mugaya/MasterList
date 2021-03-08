@@ -1,0 +1,1012 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 37,
+            "service_name": "Outpatient",
+            "service_abbr": "",
+            "service_code": 1090
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 37,
+            "service_name": "Inpatient",
+            "service_abbr": "",
+            "service_code": 1091
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 36,
+            "service_name": "HIV Testing Services",
+            "service_abbr": "",
+            "service_code": 1092
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 36,
+            "service_name": "Condom Distribution & STI Prevention",
+            "service_abbr": "",
+            "service_code": 1093
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 36,
+            "service_name": "Prevention of Mother to Child transmission of HIV",
+            "service_abbr": "",
+            "service_code": 1094
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 36,
+            "service_name": "HIV risk reduction services for prioity populations and geographies",
+            "service_abbr": "",
+            "service_code": 1095
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 36,
+            "service_name": "Infection Prevention and control to mitigate HIV infection in the work place",
+            "service_abbr": "",
+            "service_code": 1096
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 36,
+            "service_name": "HIV risk reduction for Key populations",
+            "service_abbr": "",
+            "service_code": 1097
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 35,
+            "service_name": "HIV treatment and care",
+            "service_abbr": "",
+            "service_code": 1098
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 34,
+            "service_name": "Basic Obstetric Care (BMOC)",
+            "service_abbr": "",
+            "service_code": 1099
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 34,
+            "service_name": "Comprehensive Obstetric Care (CMOC)",
+            "service_abbr": "",
+            "service_code": 1100
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 33,
+            "service_name": "New born Care Service",
+            "service_abbr": "",
+            "service_code": 1101
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 32,
+            "service_name": "Short Term",
+            "service_abbr": "",
+            "service_code": 1102
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 32,
+            "service_name": "Long Term",
+            "service_abbr": "",
+            "service_code": 1103
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 32,
+            "service_name": "Natural",
+            "service_abbr": "",
+            "service_code": 1104
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 32,
+            "service_name": "Permanent",
+            "service_abbr": "",
+            "service_code": 1105
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 31,
+            "service_name": "Focused Antenatal Care",
+            "service_abbr": "FANC",
+            "service_code": 1106
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 31,
+            "service_name": "Specialised ANC",
+            "service_abbr": "",
+            "service_code": 1107
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 30,
+            "service_name": "Postnatal care services",
+            "service_abbr": "",
+            "service_code": 1108
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 29,
+            "service_name": "Basic Services for Gender Based Violence Survivors",
+            "service_abbr": "",
+            "service_code": 1109
+        }
+    },
+    {
+        "pk": 21,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 29,
+            "service_name": "Comprehensive Services for Gender- Based- Violence Survivors",
+            "service_abbr": "",
+            "service_code": 1110
+        }
+    },
+    {
+        "pk": 22,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 28,
+            "service_name": "Youth - Friendly Services",
+            "service_abbr": "YFS",
+            "service_code": 1111
+        }
+    },
+    {
+        "pk": 23,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 27,
+            "service_name": "Integrated Child Immunization",
+            "service_abbr": "",
+            "service_code": 1112
+        }
+    },
+    {
+        "pk": 24,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 27,
+            "service_name": "TT toxoid for Pregnant Women",
+            "service_abbr": "",
+            "service_code": 1113
+        }
+    },
+    {
+        "pk": 25,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 27,
+            "service_name": "Vaccination services given to travellers",
+            "service_abbr": "",
+            "service_code": 1114
+        }
+    },
+    {
+        "pk": 26,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 26,
+            "service_name": "Integrated Management of Childhood Illnesses",
+            "service_abbr": "IMCI",
+            "service_code": 1115
+        }
+    },
+    {
+        "pk": 27,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 25,
+            "service_name": "Smear Microscopy",
+            "service_abbr": "",
+            "service_code": 1116
+        }
+    },
+    {
+        "pk": 28,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 25,
+            "service_name": "GeneXpert",
+            "service_abbr": "",
+            "service_code": 1117
+        }
+    },
+    {
+        "pk": 29,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 25,
+            "service_name": "Tuberculosis Culture",
+            "service_abbr": "",
+            "service_code": 1118
+        }
+    },
+    {
+        "pk": 30,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 25,
+            "service_name": "Xray",
+            "service_abbr": "",
+            "service_code": 1119
+        }
+    },
+    {
+        "pk": 31,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 25,
+            "service_name": "Fine Needle Aspiration",
+            "service_abbr": "",
+            "service_code": 1120
+        }
+    },
+    {
+        "pk": 32,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 24,
+            "service_name": "Tuberculosis Treatment",
+            "service_abbr": "",
+            "service_code": 1121
+        }
+    },
+    {
+        "pk": 33,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 24,
+            "service_name": "Drug Resistant Tuberculosis Treatment",
+            "service_abbr": "",
+            "service_code": 1122
+        }
+    },
+    {
+        "pk": 34,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 23,
+            "service_name": "Slit Skin Smears Microscopy",
+            "service_abbr": "",
+            "service_code": 1123
+        }
+    },
+    {
+        "pk": 35,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 23,
+            "service_name": "Slit Skin Smears Culture",
+            "service_abbr": "",
+            "service_code": 1124
+        }
+    },
+    {
+        "pk": 36,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 22,
+            "service_name": "Leprosy Treatment",
+            "service_abbr": "",
+            "service_code": 1125
+        }
+    },
+    {
+        "pk": 37,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 21,
+            "service_name": "Satellite Blood Transfusion service",
+            "service_abbr": "",
+            "service_code": 1126
+        }
+    },
+    {
+        "pk": 38,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 21,
+            "service_name": "Facility offering Blood Transfusion Service",
+            "service_abbr": "",
+            "service_code": 1127
+        }
+    },
+    {
+        "pk": 39,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 21,
+            "service_name": "Blood bank",
+            "service_abbr": "",
+            "service_code": 1128
+        }
+    },
+    {
+        "pk": 40,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 20,
+            "service_name": "General X-ray",
+            "service_abbr": "",
+            "service_code": 1129
+        }
+    },
+    {
+        "pk": 41,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 20,
+            "service_name": "Specialised X-Ray",
+            "service_abbr": "",
+            "service_code": 1130
+        }
+    },
+    {
+        "pk": 42,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 20,
+            "service_name": "Utra-Sound",
+            "service_abbr": "",
+            "service_code": 1131
+        }
+    },
+    {
+        "pk": 43,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 20,
+            "service_name": "CT scans",
+            "service_abbr": "",
+            "service_code": 1132
+        }
+    },
+    {
+        "pk": 44,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 20,
+            "service_name": "Mammography",
+            "service_abbr": "",
+            "service_code": 1133
+        }
+    },
+    {
+        "pk": 45,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 20,
+            "service_name": "MRI",
+            "service_abbr": "MRI",
+            "service_code": 1134
+        }
+    },
+    {
+        "pk": 46,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 20,
+            "service_name": "Barium Meal",
+            "service_abbr": "",
+            "service_code": 1135
+        }
+    },
+    {
+        "pk": 47,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 19,
+            "service_name": "Minor Theatre Services",
+            "service_abbr": "",
+            "service_code": 1136
+        }
+    },
+    {
+        "pk": 48,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 19,
+            "service_name": "General Theatre Services",
+            "service_abbr": "",
+            "service_code": 1137
+        }
+    },
+    {
+        "pk": 49,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 18,
+            "service_name": "Basic Emergency Preparedness",
+            "service_abbr": "",
+            "service_code": 1138
+        }
+    },
+    {
+        "pk": 50,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 18,
+            "service_name": "Comprehensive Emergency Preparedness",
+            "service_abbr": "",
+            "service_code": 1139
+        }
+    },
+    {
+        "pk": 51,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 17,
+            "service_name": "Counselling for Oncology Services",
+            "service_abbr": "",
+            "service_code": 1140
+        }
+    },
+    {
+        "pk": 52,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 17,
+            "service_name": "Radiotherapy",
+            "service_abbr": "",
+            "service_code": 1141
+        }
+    },
+    {
+        "pk": 53,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 17,
+            "service_name": "Chemotherapy",
+            "service_abbr": "",
+            "service_code": 1142
+        }
+    },
+    {
+        "pk": 54,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 16,
+            "service_name": "Accident and Emergency casualty Services",
+            "service_abbr": "",
+            "service_code": 1143
+        }
+    },
+    {
+        "pk": 55,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 15,
+            "service_name": "ICU services",
+            "service_abbr": "",
+            "service_code": 1144
+        }
+    },
+    {
+        "pk": 56,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 14,
+            "service_name": "High depedency Services",
+            "service_abbr": "HDU",
+            "service_code": 1145
+        }
+    },
+    {
+        "pk": 57,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 13,
+            "service_name": "Hospice service",
+            "service_abbr": "",
+            "service_code": 1146
+        }
+    },
+    {
+        "pk": 58,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 12,
+            "service_name": "Renal services",
+            "service_abbr": "",
+            "service_code": 1147
+        }
+    },
+    {
+        "pk": 59,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 12,
+            "service_name": "Dialysis",
+            "service_abbr": "",
+            "service_code": 1148
+        }
+    },
+    {
+        "pk": 60,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 11,
+            "service_name": "Medical Outpatient Clinic",
+            "service_abbr": "MOPC",
+            "service_code": 1149
+        }
+    },
+    {
+        "pk": 61,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 11,
+            "service_name": "Paediatric outpatient clinic",
+            "service_abbr": "POPC",
+            "service_code": 1150
+        }
+    },
+    {
+        "pk": 62,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 11,
+            "service_name": "Surgical outpatient clinic",
+            "service_abbr": "SOPC",
+            "service_code": 1151
+        }
+    },
+    {
+        "pk": 63,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 11,
+            "service_name": "ENT",
+            "service_abbr": "",
+            "service_code": 1152
+        }
+    },
+    {
+        "pk": 64,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 11,
+            "service_name": "Opthamology",
+            "service_abbr": "",
+            "service_code": 1153
+        }
+    },
+    {
+        "pk": 65,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 11,
+            "service_name": "Skin",
+            "service_abbr": "",
+            "service_code": 1154
+        }
+    },
+    {
+        "pk": 66,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 11,
+            "service_name": "Gynaecology",
+            "service_abbr": "",
+            "service_code": 1155
+        }
+    },
+    {
+        "pk": 67,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 10,
+            "service_name": "Othorpaedic basic services",
+            "service_abbr": "",
+            "service_code": 1156
+        }
+    },
+    {
+        "pk": 68,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 10,
+            "service_name": "Orthopaedic procedures",
+            "service_abbr": "",
+            "service_code": 1157
+        }
+    },
+    {
+        "pk": 69,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 10,
+            "service_name": "Orthopaedic surgeries",
+            "service_abbr": "",
+            "service_code": 1158
+        }
+    },
+    {
+        "pk": 70,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 10,
+            "service_name": "Basic Occupational Therapy",
+            "service_abbr": "",
+            "service_code": 1159
+        }
+    },
+    {
+        "pk": 71,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 10,
+            "service_name": "Specialised Occupational Therapy",
+            "service_abbr": "",
+            "service_code": 1160
+        }
+    },
+    {
+        "pk": 72,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 10,
+            "service_name": "Basic Physiotherapy",
+            "service_abbr": "",
+            "service_code": 1161
+        }
+    },
+    {
+        "pk": 73,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 10,
+            "service_name": "Specialised Physiotherapy",
+            "service_abbr": "",
+            "service_code": 1162
+        }
+    },
+    {
+        "pk": 74,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 9,
+            "service_name": "Ophthalmic services",
+            "service_abbr": "",
+            "service_code": 1165
+        }
+    },
+    {
+        "pk": 75,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 8,
+            "service_name": "Basic Mental Health Services",
+            "service_abbr": "",
+            "service_code": 1166
+        }
+    },
+    {
+        "pk": 76,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 8,
+            "service_name": "Specialised Mental Health Services",
+            "service_abbr": "",
+            "service_code": 1167
+        }
+    },
+    {
+        "pk": 77,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 7,
+            "service_name": "Basic dental services",
+            "service_abbr": "",
+            "service_code": 1168
+        }
+    },
+    {
+        "pk": 78,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 7,
+            "service_name": "Specialised Dental services",
+            "service_abbr": "",
+            "service_code": 1169
+        }
+    },
+    {
+        "pk": 79,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 6,
+            "service_name": "Class A",
+            "service_abbr": "",
+            "service_code": 1170
+        }
+    },
+    {
+        "pk": 80,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 6,
+            "service_name": "Class B",
+            "service_abbr": "",
+            "service_code": 1171
+        }
+    },
+    {
+        "pk": 81,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 6,
+            "service_name": "Class C",
+            "service_abbr": "",
+            "service_code": 1172
+        }
+    },
+    {
+        "pk": 82,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 6,
+            "service_name": "Class D",
+            "service_abbr": "",
+            "service_code": 1173
+        }
+    },
+    {
+        "pk": 83,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 6,
+            "service_name": "Class E",
+            "service_abbr": "",
+            "service_code": 1174
+        }
+    },
+    {
+        "pk": 84,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 6,
+            "service_name": "Class F",
+            "service_abbr": "",
+            "service_code": 1175
+        }
+    },
+    {
+        "pk": 85,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 5,
+            "service_name": "Hospital - Retail services",
+            "service_abbr": "",
+            "service_code": 1176
+        }
+    },
+    {
+        "pk": 86,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 5,
+            "service_name": "Stand Alone - Retail services",
+            "service_abbr": "",
+            "service_code": 1177
+        }
+    },
+    {
+        "pk": 87,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 5,
+            "service_name": "Stand Alone - Wholesale services",
+            "service_abbr": "",
+            "service_code": 1178
+        }
+    },
+    {
+        "pk": 88,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 5,
+            "service_name": "Stand Alone - Manufacturing services",
+            "service_abbr": "",
+            "service_code": 1179
+        }
+    },
+    {
+        "pk": 89,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 4,
+            "service_name": "Ambulatory Services",
+            "service_abbr": "",
+            "service_code": 1180
+        }
+    },
+    {
+        "pk": 90,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 3,
+            "service_name": "Forensic Services",
+            "service_abbr": "",
+            "service_code": 1181
+        }
+    },
+    {
+        "pk": 91,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 2,
+            "service_name": "Basic Mortuary Services",
+            "service_abbr": "",
+            "service_code": 1182
+        }
+    },
+    {
+        "pk": 92,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 2,
+            "service_name": "Comprehensive Mortuary Services",
+            "service_abbr": "",
+            "service_code": 1183
+        }
+    },
+    {
+        "pk": 93,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 8,
+            "service_name": "Comprehensive Mental Health Service",
+            "service_abbr": "",
+            "service_code": 1184
+        }
+    },
+    {
+        "pk": 94,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 19,
+            "service_name": "Maternity Theatre Services",
+            "service_abbr": "MTC",
+            "service_code": 1185
+        }
+    },
+    {
+        "pk": 95,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 1,
+            "service_name": "Screening using VIA/VILI",
+            "service_abbr": "",
+            "service_code": 1186
+        }
+    },
+    {
+        "pk": 96,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 1,
+            "service_name": "Pap smear",
+            "service_abbr": "",
+            "service_code": 1187
+        }
+    },
+    {
+        "pk": 97,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 1,
+            "service_name": "Breast",
+            "service_abbr": "",
+            "service_code": 1188
+        }
+    },
+    {
+        "pk": 98,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 1,
+            "service_name": "Coloreactal",
+            "service_abbr": "",
+            "service_code": 1189
+        }
+    },
+    {
+        "pk": 99,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 1,
+            "service_name": "Prostate",
+            "service_abbr": "",
+            "service_code": 1190
+        }
+    },
+    {
+        "pk": 100,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 17,
+            "service_name": "Cryotherapy",
+            "service_abbr": "",
+            "service_code": 1191
+        }
+    },
+    {
+        "pk": 101,
+        "model": "ml_setup.Service",
+        "fields": {
+            "category_id": 17,
+            "service_name": "Leep",
+            "service_abbr": "",
+            "service_code": 1192
+        }
+    }
+]

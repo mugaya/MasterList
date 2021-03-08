@@ -1,0 +1,58 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.TypeCategory",
+        "fields": {
+            "type_category_name": "DISPENSARY",
+            "type_category_abbr": "DISP"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.TypeCategory",
+        "fields": {
+            "type_category_name": "MEDICAL CLINIC",
+            "type_category_abbr": "MEDC"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.TypeCategory",
+        "fields": {
+            "type_category_name": "HOSPITALS",
+            "type_category_abbr": "HOSP"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.TypeCategory",
+        "fields": {
+            "type_category_name": "STAND ALONE",
+            "type_category_abbr": "STDA"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.TypeCategory",
+        "fields": {
+            "type_category_name": "NURSING HOME",
+            "type_category_abbr": "NURH"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.TypeCategory",
+        "fields": {
+            "type_category_name": "MEDICAL CENTRE",
+            "type_category_abbr": "MDCE"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.TypeCategory",
+        "fields": {
+            "type_category_name": "HEALTH CENTRE",
+            "type_category_abbr": "HECE"
+        }
+    }
+]

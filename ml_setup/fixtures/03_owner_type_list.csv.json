@@ -1,0 +1,34 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.OwnerCategory",
+        "fields": {
+            "owner_category_name": "Private Practice",
+            "owner_category_abbr": "PPR"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.OwnerCategory",
+        "fields": {
+            "owner_category_name": "Non-Governmental Organizations",
+            "owner_category_abbr": "NGO"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.OwnerCategory",
+        "fields": {
+            "owner_category_name": "Ministry of Health",
+            "owner_category_abbr": "MOH"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.OwnerCategory",
+        "fields": {
+            "owner_category_name": "Faith Based Organization",
+            "owner_category_abbr": "FBO"
+        }
+    }
+]

@@ -1,40 +1,58 @@
 {% extends 'base.html' %}
 {% load static %}
 | {% block page_title %} Listings {% endblock %}
+
+{% block style_code %}
+<link rel="stylesheet" href="{% static 'plugins/DataTables-1.10.23/css/datatables.min.css' %}" />
+{% endblock style_code %}
 {% block primary %}
+
 <!-- Main -->
 	<div id="main-wrapper">
 		<div class="container">
-			<div class="row gtr-200">
-				<div class="col-4 col-12-medium">
-					<div id="sidebar">
+			<div id="content">
+				{% if user.is_authenticated %}
+                <div class=""><a href="{% url 'new_listing' %}" class="button small icon solid fa-arrow-circle-right">New Facility</a></div><br>
+                {% endif %}
+				<!-- Content -->
+					<article>
+                        
+						<div class="search_results">
+							<table id="results-table" class="display" style="width:100%">
+								<thead>
+									<tr>
+										<th>#</th>
+										<th>Code</th>
+										<th>Name</th>
+										<th>Action</th>
+									</tr>
+								</thead>
+								<tbody>
+									{% for dt in results %}
+									<tr>
+										<td>{{ forloop.counter }}</td>
+										<td>{{ dt.code }}</td>
+										<td>{{ dt.name }}</td>
+										<td><a href="{% url 'view_listing' lid=dt.id %}" class="button small">View</a> <a href="{% url 'edit_listing' lid=dt.id %}" class="button small">Edit</a>  </td>
+									</tr>
+									{% endfor %}
+									
+								</tbody>
+							</table>
+						</div>
 
-						<!-- Sidebar -->
-							<section>
-								<h3>Search Params</h3>
-								<p>Details</p>
-								<footer>
-									<a href="#" class="button icon solid fa-info-circle">Find out more</a>
-								</footer>
-							</section>
+					</article>
 
-					</div>
-				</div>
-				<div class="col-8 col-12-medium imp-medium">
-					<div id="content">
-
-						<!-- Content -->
-							<article>
-
-								<h2>Results</h2>
-
-								<p>Listings.</p>
-
-							</article>
-
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
-{% endblock primary %}		
+
+{% endblock primary %}
+{% block lazy_js %}
+<script src="{% static 'plugins/DataTables-1.10.23/js/datatables.min.js' %}"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#results-table').DataTable();
+} );
+</script>
+{% endblock lazy_js %}	

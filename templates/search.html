@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
 | {% block page_title %} Search {% endblock %}
+
+{% block style_code %}
+<link rel="stylesheet" href="{% static 'plugins/DataTables-1.10.23/css/datatables.min.css' %}" />
+{% endblock style_code %}
 {% block primary %}
 <!-- Main -->
 	<div id="main-wrapper">
@@ -12,9 +16,17 @@
 						<!-- Sidebar -->
 							<section>
 								<h3>Search Params</h3>
-								{{ form.name }}
+								<div class="form-group">
+			                        <label for="name">Name</label>
+								    {{ form.name }}
+								</div>
+								
+								<div class="form-group">
+			                        <label for="name">Approval Status</label>
+								    {{ form.approval_status }}
+								</div>
 								<footer>
-									<button type="submit" class="button icon solid fa-info-circle">Search</button>
+									<button type="submit" class="button icon solid fa-info-circle">Search Facility</button>
 								</footer>
 							</section>
 						</form>
@@ -28,9 +40,23 @@
 						<!-- Content -->
 							<article>
 
-								<h2>Results</h2>
+								<h2>Search Results (0)</h2>
 
-								<p>Listing.</p>
+								<div class="search_results">
+									<table id="results-table" class="display" style="width:100%">
+										<thead>
+											<tr>
+												<th>#</th>
+												<th>Code</th>
+												<th>Name</th>
+												<th>Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											
+										</tbody>
+									</table>
+								</div>
 
 							</article>
 
@@ -39,4 +65,27 @@
 			</div>
 		</div>
 	</div>
-{% endblock primary %}	
+{% endblock primary %}
+{% block lazy_js %}
+<script src="{% static 'plugins/DataTables-1.10.23/js/datatables.min.js' %}"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#results-table').DataTable( {
+        "processing": true,
+        "serverSide": true,
+        "ajax": {
+            "url": "/api/v1/search/",
+            "data": function ( d ) {
+                d.name = $('#name').val();
+            }
+        },
+        "columns": [
+                    { "data": "code" },
+                    { "data": "name" },
+                    { "data": "code" },
+                    { "data": "name" }
+                ]
+    } );
+} );
+</script>
+{% endblock lazy_js %}

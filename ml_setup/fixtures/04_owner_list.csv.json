@@ -1,0 +1,182 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice- Pharmacist",
+            "owner_type_code": 1034,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice - Private Company",
+            "owner_type_code": 1026,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice Lab Technician/Technologist",
+            "owner_type_code": 1031,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 4,
+            "owner_type_name": "Seventh Day Adventist",
+            "owner_type_code": 1025,
+            "owner_type_abbr": "SDA"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 4,
+            "owner_type_name": "Supreme Council for Kenya Muslims",
+            "owner_type_code": 1023,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice - Nurse / Midwifery",
+            "owner_type_code": 1020,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice - Medical Specialist",
+            "owner_type_code": 1019,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice - General Practitioner",
+            "owner_type_code": 1018,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice - Clinical Officer",
+            "owner_type_code": 1017,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 1,
+            "owner_type_name": "Private Practice - Private Institution Academic",
+            "owner_type_code": 1016,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 3,
+            "owner_type_name": "Public Institution \u2013 Parastatal",
+            "owner_type_code": 1015,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 4,
+            "owner_type_name": "Other Faith Based",
+            "owner_type_code": 1013,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 2,
+            "owner_type_name": "Non-Governmental Organizations",
+            "owner_type_code": 1011,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 3,
+            "owner_type_name": "Ministry of Health",
+            "owner_type_code": 1010,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 4,
+            "owner_type_name": "Kenya Episcopal Conference-Catholic Secretariat",
+            "owner_type_code": 1007,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 4,
+            "owner_type_name": "Christian Health Association of Kenya",
+            "owner_type_code": 1002,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 3,
+            "owner_type_name": "Armed Forces",
+            "owner_type_code": 1001,
+            "owner_type_abbr": ""
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ml_setup.OwnerType",
+        "fields": {
+            "owner_type_id": 3,
+            "owner_type_name": "Public Institution - Academic",
+            "owner_type_code": 1000,
+            "owner_type_abbr": ""
+        }
+    }
+]

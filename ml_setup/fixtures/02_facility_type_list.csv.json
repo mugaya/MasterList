@@ -1,0 +1,252 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Dermatology",
+            "facility_type_abbr": "",
+            "facility_type_code": 1001,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Medical Clinic",
+            "facility_type_abbr": "",
+            "facility_type_code": 1002,
+            "facility_type_id": 2
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Rehab. Center - Drug and Substance abuse",
+            "facility_type_abbr": "",
+            "facility_type_code": 1003,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Nutrition and Dietetics",
+            "facility_type_abbr": "",
+            "facility_type_code": 1004,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Dialysis Center",
+            "facility_type_abbr": "",
+            "facility_type_code": 1005,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Rehab. Center - Physiotherapy, Orthopaedic & Occupational Therapy",
+            "facility_type_abbr": "",
+            "facility_type_code": 1006,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Nursing and Maternity Home",
+            "facility_type_abbr": "",
+            "facility_type_code": 1007,
+            "facility_type_id": 5
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Nursing Homes",
+            "facility_type_abbr": "",
+            "facility_type_code": 1008,
+            "facility_type_id": 5
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Specialized & Tertiary Referral hospitals",
+            "facility_type_abbr": "",
+            "facility_type_code": 1009,
+            "facility_type_id": 3
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Voluntary Counseling and Testing",
+            "facility_type_abbr": "VCT",
+            "facility_type_code": 1010,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Farewell Home",
+            "facility_type_abbr": "",
+            "facility_type_code": 1011,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Secondary care hospitals",
+            "facility_type_abbr": "",
+            "facility_type_code": 1012,
+            "facility_type_id": 3
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Laboratory",
+            "facility_type_abbr": "",
+            "facility_type_code": 1013,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Basic Health Centre",
+            "facility_type_abbr": "",
+            "facility_type_code": 1014,
+            "facility_type_id": 7
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Comprehensive Teaching & Tertiary Referral Hospital",
+            "facility_type_abbr": "",
+            "facility_type_code": 1015,
+            "facility_type_id": 3
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Radiology Clinic",
+            "facility_type_abbr": "",
+            "facility_type_code": 1016,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Comprehensive health Centre",
+            "facility_type_abbr": "",
+            "facility_type_code": 1017,
+            "facility_type_id": 7
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Primary care hospitals",
+            "facility_type_abbr": "",
+            "facility_type_code": 1018,
+            "facility_type_id": 3
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Pharmacy",
+            "facility_type_abbr": "",
+            "facility_type_code": 1019,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Regional Blood Transfusion Centre",
+            "facility_type_abbr": "",
+            "facility_type_code": 1020,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 21,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Medical Center",
+            "facility_type_abbr": "",
+            "facility_type_code": 1021,
+            "facility_type_id": 6
+        }
+    },
+    {
+        "pk": 22,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Ophthalmology",
+            "facility_type_abbr": "",
+            "facility_type_code": 1022,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 23,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Dispensary",
+            "facility_type_abbr": "",
+            "facility_type_code": 1023,
+            "facility_type_id": 1
+        }
+    },
+    {
+        "pk": 24,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Dental Clinic",
+            "facility_type_abbr": "",
+            "facility_type_code": 1024,
+            "facility_type_id": 4
+        }
+    },
+    {
+        "pk": 25,
+        "model": "ml_setup.FacilityType",
+        "fields": {
+            "facility_type_name": "Blood Bank",
+            "facility_type_abbr": "",
+            "facility_type_code": 1025,
+            "facility_type_id": 4
+        }
+    }
+]

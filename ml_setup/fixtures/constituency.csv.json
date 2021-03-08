@@ -1,0 +1,2322 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Changamwe",
+            "constituency_code": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Jomvu",
+            "constituency_code": 2
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kisauni",
+            "constituency_code": 3
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyali",
+            "constituency_code": 4
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Likoni",
+            "constituency_code": 5
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mvita",
+            "constituency_code": 6
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Msambweni",
+            "constituency_code": 7
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lunga Lunga",
+            "constituency_code": 8
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Matuga",
+            "constituency_code": 9
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kinango",
+            "constituency_code": 10
+        }
+    },
+    {
+        "pk": 11,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kilifi North",
+            "constituency_code": 11
+        }
+    },
+    {
+        "pk": 12,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kilifi South",
+            "constituency_code": 12
+        }
+    },
+    {
+        "pk": 13,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kaloleni",
+            "constituency_code": 13
+        }
+    },
+    {
+        "pk": 14,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Rabai",
+            "constituency_code": 14
+        }
+    },
+    {
+        "pk": 15,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ganze",
+            "constituency_code": 15
+        }
+    },
+    {
+        "pk": 16,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Malindi",
+            "constituency_code": 16
+        }
+    },
+    {
+        "pk": 17,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Magarini",
+            "constituency_code": 17
+        }
+    },
+    {
+        "pk": 18,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Garsen",
+            "constituency_code": 18
+        }
+    },
+    {
+        "pk": 19,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Galole",
+            "constituency_code": 19
+        }
+    },
+    {
+        "pk": 20,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bura",
+            "constituency_code": 20
+        }
+    },
+    {
+        "pk": 21,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lamu East",
+            "constituency_code": 21
+        }
+    },
+    {
+        "pk": 22,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lamu West",
+            "constituency_code": 22
+        }
+    },
+    {
+        "pk": 23,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Taveta",
+            "constituency_code": 23
+        }
+    },
+    {
+        "pk": 24,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Wundanyi",
+            "constituency_code": 24
+        }
+    },
+    {
+        "pk": 25,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mwatate",
+            "constituency_code": 25
+        }
+    },
+    {
+        "pk": 26,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Voi",
+            "constituency_code": 26
+        }
+    },
+    {
+        "pk": 27,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Garissa Township",
+            "constituency_code": 27
+        }
+    },
+    {
+        "pk": 28,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Balambala",
+            "constituency_code": 28
+        }
+    },
+    {
+        "pk": 29,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lagdera",
+            "constituency_code": 29
+        }
+    },
+    {
+        "pk": 30,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Daadab",
+            "constituency_code": 30
+        }
+    },
+    {
+        "pk": 31,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Fafi",
+            "constituency_code": 31
+        }
+    },
+    {
+        "pk": 32,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ijara",
+            "constituency_code": 32
+        }
+    },
+    {
+        "pk": 33,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Wajir North",
+            "constituency_code": 33
+        }
+    },
+    {
+        "pk": 34,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Wajir East",
+            "constituency_code": 34
+        }
+    },
+    {
+        "pk": 35,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tarbaj",
+            "constituency_code": 35
+        }
+    },
+    {
+        "pk": 36,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Wajir West",
+            "constituency_code": 36
+        }
+    },
+    {
+        "pk": 37,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Eldas",
+            "constituency_code": 37
+        }
+    },
+    {
+        "pk": 38,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Wajir South",
+            "constituency_code": 38
+        }
+    },
+    {
+        "pk": 39,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mandera West",
+            "constituency_code": 39
+        }
+    },
+    {
+        "pk": 40,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Banissa",
+            "constituency_code": 40
+        }
+    },
+    {
+        "pk": 41,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mandera North",
+            "constituency_code": 41
+        }
+    },
+    {
+        "pk": 42,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mandera South",
+            "constituency_code": 42
+        }
+    },
+    {
+        "pk": 43,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mandera East",
+            "constituency_code": 43
+        }
+    },
+    {
+        "pk": 44,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lafey",
+            "constituency_code": 44
+        }
+    },
+    {
+        "pk": 45,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Moyale",
+            "constituency_code": 45
+        }
+    },
+    {
+        "pk": 46,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "North Horr",
+            "constituency_code": 46
+        }
+    },
+    {
+        "pk": 47,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Saku",
+            "constituency_code": 47
+        }
+    },
+    {
+        "pk": 48,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Laisamis",
+            "constituency_code": 48
+        }
+    },
+    {
+        "pk": 49,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Isiolo North",
+            "constituency_code": 49
+        }
+    },
+    {
+        "pk": 50,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Isiolo South",
+            "constituency_code": 50
+        }
+    },
+    {
+        "pk": 51,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Igembe South",
+            "constituency_code": 51
+        }
+    },
+    {
+        "pk": 52,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Igembe Central",
+            "constituency_code": 52
+        }
+    },
+    {
+        "pk": 53,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Igembe North",
+            "constituency_code": 53
+        }
+    },
+    {
+        "pk": 54,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tigania West",
+            "constituency_code": 54
+        }
+    },
+    {
+        "pk": 55,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tigania East",
+            "constituency_code": 55
+        }
+    },
+    {
+        "pk": 56,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "North Imenti",
+            "constituency_code": 56
+        }
+    },
+    {
+        "pk": 57,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Buuri",
+            "constituency_code": 57
+        }
+    },
+    {
+        "pk": 58,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Central Imenti",
+            "constituency_code": 58
+        }
+    },
+    {
+        "pk": 59,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "South Imenti",
+            "constituency_code": 59
+        }
+    },
+    {
+        "pk": 60,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Maara",
+            "constituency_code": 60
+        }
+    },
+    {
+        "pk": 61,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Chuka/Igambang'ombe",
+            "constituency_code": 61
+        }
+    },
+    {
+        "pk": 62,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tharaka",
+            "constituency_code": 62
+        }
+    },
+    {
+        "pk": 63,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Manyatta",
+            "constituency_code": 63
+        }
+    },
+    {
+        "pk": 64,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Runyenjes",
+            "constituency_code": 64
+        }
+    },
+    {
+        "pk": 65,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mbeere South",
+            "constituency_code": 65
+        }
+    },
+    {
+        "pk": 66,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mbeere North",
+            "constituency_code": 66
+        }
+    },
+    {
+        "pk": 67,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mwingi North",
+            "constituency_code": 67
+        }
+    },
+    {
+        "pk": 68,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mwingi West",
+            "constituency_code": 68
+        }
+    },
+    {
+        "pk": 69,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mwingi Central",
+            "constituency_code": 69
+        }
+    },
+    {
+        "pk": 70,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitui West",
+            "constituency_code": 70
+        }
+    },
+    {
+        "pk": 71,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitui Rural",
+            "constituency_code": 71
+        }
+    },
+    {
+        "pk": 72,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitui Central",
+            "constituency_code": 72
+        }
+    },
+    {
+        "pk": 73,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitui East",
+            "constituency_code": 73
+        }
+    },
+    {
+        "pk": 74,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitui South",
+            "constituency_code": 74
+        }
+    },
+    {
+        "pk": 75,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Masinga",
+            "constituency_code": 75
+        }
+    },
+    {
+        "pk": 76,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Yatta",
+            "constituency_code": 76
+        }
+    },
+    {
+        "pk": 77,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kangundo",
+            "constituency_code": 77
+        }
+    },
+    {
+        "pk": 78,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Matungulu",
+            "constituency_code": 78
+        }
+    },
+    {
+        "pk": 79,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kathiani",
+            "constituency_code": 79
+        }
+    },
+    {
+        "pk": 80,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mavoko",
+            "constituency_code": 80
+        }
+    },
+    {
+        "pk": 81,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Machakos Town",
+            "constituency_code": 81
+        }
+    },
+    {
+        "pk": 82,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mwala",
+            "constituency_code": 82
+        }
+    },
+    {
+        "pk": 83,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mbooni",
+            "constituency_code": 83
+        }
+    },
+    {
+        "pk": 84,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kilome",
+            "constituency_code": 84
+        }
+    },
+    {
+        "pk": 85,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kaiti",
+            "constituency_code": 85
+        }
+    },
+    {
+        "pk": 86,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Makueni",
+            "constituency_code": 86
+        }
+    },
+    {
+        "pk": 87,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kibwezi West",
+            "constituency_code": 87
+        }
+    },
+    {
+        "pk": 88,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kibwezi East",
+            "constituency_code": 88
+        }
+    },
+    {
+        "pk": 89,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kinangop",
+            "constituency_code": 89
+        }
+    },
+    {
+        "pk": 90,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kipipiri",
+            "constituency_code": 90
+        }
+    },
+    {
+        "pk": 91,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ol Kalou",
+            "constituency_code": 91
+        }
+    },
+    {
+        "pk": 92,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Oljorook",
+            "constituency_code": 92
+        }
+    },
+    {
+        "pk": 93,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ndaragwa",
+            "constituency_code": 93
+        }
+    },
+    {
+        "pk": 94,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tetu",
+            "constituency_code": 94
+        }
+    },
+    {
+        "pk": 95,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kieni",
+            "constituency_code": 95
+        }
+    },
+    {
+        "pk": 96,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mathira",
+            "constituency_code": 96
+        }
+    },
+    {
+        "pk": 97,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyeri South",
+            "constituency_code": 97
+        }
+    },
+    {
+        "pk": 98,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mukurweini",
+            "constituency_code": 98
+        }
+    },
+    {
+        "pk": 99,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyeri Town",
+            "constituency_code": 99
+        }
+    },
+    {
+        "pk": 100,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mwea",
+            "constituency_code": 100
+        }
+    },
+    {
+        "pk": 101,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Gichugu",
+            "constituency_code": 101
+        }
+    },
+    {
+        "pk": 102,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ndia",
+            "constituency_code": 102
+        }
+    },
+    {
+        "pk": 103,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kirinyaga Central",
+            "constituency_code": 103
+        }
+    },
+    {
+        "pk": 104,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kangema",
+            "constituency_code": 104
+        }
+    },
+    {
+        "pk": 105,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mathioya",
+            "constituency_code": 105
+        }
+    },
+    {
+        "pk": 106,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kiharu",
+            "constituency_code": 106
+        }
+    },
+    {
+        "pk": 107,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kigumo",
+            "constituency_code": 107
+        }
+    },
+    {
+        "pk": 108,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Maragwa",
+            "constituency_code": 108
+        }
+    },
+    {
+        "pk": 109,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kandara",
+            "constituency_code": 109
+        }
+    },
+    {
+        "pk": 110,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Gatanga",
+            "constituency_code": 110
+        }
+    },
+    {
+        "pk": 111,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Gatundu South",
+            "constituency_code": 111
+        }
+    },
+    {
+        "pk": 112,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Gatundu North",
+            "constituency_code": 112
+        }
+    },
+    {
+        "pk": 113,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Juja",
+            "constituency_code": 113
+        }
+    },
+    {
+        "pk": 114,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Thika Town",
+            "constituency_code": 114
+        }
+    },
+    {
+        "pk": 115,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ruiru",
+            "constituency_code": 115
+        }
+    },
+    {
+        "pk": 116,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Githunguri",
+            "constituency_code": 116
+        }
+    },
+    {
+        "pk": 117,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kiambu",
+            "constituency_code": 117
+        }
+    },
+    {
+        "pk": 118,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kiambaa",
+            "constituency_code": 118
+        }
+    },
+    {
+        "pk": 119,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kabete",
+            "constituency_code": 119
+        }
+    },
+    {
+        "pk": 120,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kikuyu",
+            "constituency_code": 120
+        }
+    },
+    {
+        "pk": 121,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Limuru",
+            "constituency_code": 121
+        }
+    },
+    {
+        "pk": 122,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lari",
+            "constituency_code": 122
+        }
+    },
+    {
+        "pk": 123,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Turkana North",
+            "constituency_code": 123
+        }
+    },
+    {
+        "pk": 124,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Turkana West",
+            "constituency_code": 124
+        }
+    },
+    {
+        "pk": 125,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Turkana Central",
+            "constituency_code": 125
+        }
+    },
+    {
+        "pk": 126,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Loima",
+            "constituency_code": 126
+        }
+    },
+    {
+        "pk": 127,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Turkana South",
+            "constituency_code": 127
+        }
+    },
+    {
+        "pk": 128,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Turkana East",
+            "constituency_code": 128
+        }
+    },
+    {
+        "pk": 129,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kapenguria",
+            "constituency_code": 129
+        }
+    },
+    {
+        "pk": 130,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Sigor",
+            "constituency_code": 130
+        }
+    },
+    {
+        "pk": 131,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kacheliba",
+            "constituency_code": 131
+        }
+    },
+    {
+        "pk": 132,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Pokot South",
+            "constituency_code": 132
+        }
+    },
+    {
+        "pk": 133,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Samburu Central",
+            "constituency_code": 133
+        }
+    },
+    {
+        "pk": 134,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Samburu North",
+            "constituency_code": 134
+        }
+    },
+    {
+        "pk": 135,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Samburu East",
+            "constituency_code": 135
+        }
+    },
+    {
+        "pk": 136,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kwanza",
+            "constituency_code": 136
+        }
+    },
+    {
+        "pk": 137,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Endebess",
+            "constituency_code": 137
+        }
+    },
+    {
+        "pk": 138,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Saboti",
+            "constituency_code": 138
+        }
+    },
+    {
+        "pk": 139,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kiminini",
+            "constituency_code": 139
+        }
+    },
+    {
+        "pk": 140,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Cherangany",
+            "constituency_code": 140
+        }
+    },
+    {
+        "pk": 141,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Soy",
+            "constituency_code": 141
+        }
+    },
+    {
+        "pk": 142,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Turbo",
+            "constituency_code": 142
+        }
+    },
+    {
+        "pk": 143,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Moiben",
+            "constituency_code": 143
+        }
+    },
+    {
+        "pk": 144,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ainabkoi",
+            "constituency_code": 144
+        }
+    },
+    {
+        "pk": 145,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kapseret",
+            "constituency_code": 145
+        }
+    },
+    {
+        "pk": 146,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kesses",
+            "constituency_code": 146
+        }
+    },
+    {
+        "pk": 147,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Marakwet East",
+            "constituency_code": 147
+        }
+    },
+    {
+        "pk": 148,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Marakwet West",
+            "constituency_code": 148
+        }
+    },
+    {
+        "pk": 149,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Keiyo North",
+            "constituency_code": 149
+        }
+    },
+    {
+        "pk": 150,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Keiyo South",
+            "constituency_code": 150
+        }
+    },
+    {
+        "pk": 151,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tinderet",
+            "constituency_code": 151
+        }
+    },
+    {
+        "pk": 152,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Aldai",
+            "constituency_code": 152
+        }
+    },
+    {
+        "pk": 153,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nandi Hills",
+            "constituency_code": 153
+        }
+    },
+    {
+        "pk": 154,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Chesumei",
+            "constituency_code": 154
+        }
+    },
+    {
+        "pk": 155,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Emgwen",
+            "constituency_code": 155
+        }
+    },
+    {
+        "pk": 156,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mosop",
+            "constituency_code": 156
+        }
+    },
+    {
+        "pk": 157,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tiaty",
+            "constituency_code": 157
+        }
+    },
+    {
+        "pk": 158,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Baringo North",
+            "constituency_code": 158
+        }
+    },
+    {
+        "pk": 159,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Baringo Central",
+            "constituency_code": 159
+        }
+    },
+    {
+        "pk": 160,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Baringo South",
+            "constituency_code": 160
+        }
+    },
+    {
+        "pk": 161,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mogotio",
+            "constituency_code": 161
+        }
+    },
+    {
+        "pk": 162,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Eldama Ravine",
+            "constituency_code": 162
+        }
+    },
+    {
+        "pk": 163,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Laikipia West",
+            "constituency_code": 163
+        }
+    },
+    {
+        "pk": 164,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Laikipia East",
+            "constituency_code": 164
+        }
+    },
+    {
+        "pk": 165,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Laikipia North",
+            "constituency_code": 165
+        }
+    },
+    {
+        "pk": 166,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Molo",
+            "constituency_code": 166
+        }
+    },
+    {
+        "pk": 167,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Njoro",
+            "constituency_code": 167
+        }
+    },
+    {
+        "pk": 168,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Naivasha",
+            "constituency_code": 168
+        }
+    },
+    {
+        "pk": 169,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Gilgil",
+            "constituency_code": 169
+        }
+    },
+    {
+        "pk": 170,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kuresoi South",
+            "constituency_code": 170
+        }
+    },
+    {
+        "pk": 171,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kuresoi North",
+            "constituency_code": 171
+        }
+    },
+    {
+        "pk": 172,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Subukia",
+            "constituency_code": 172
+        }
+    },
+    {
+        "pk": 173,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Rongai",
+            "constituency_code": 173
+        }
+    },
+    {
+        "pk": 174,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bahati",
+            "constituency_code": 174
+        }
+    },
+    {
+        "pk": 175,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nakuru Town West",
+            "constituency_code": 175
+        }
+    },
+    {
+        "pk": 176,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nakuru Town East",
+            "constituency_code": 176
+        }
+    },
+    {
+        "pk": 177,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kilgoris",
+            "constituency_code": 177
+        }
+    },
+    {
+        "pk": 178,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Emurua Dikirr",
+            "constituency_code": 178
+        }
+    },
+    {
+        "pk": 179,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Narok North",
+            "constituency_code": 179
+        }
+    },
+    {
+        "pk": 180,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Narok East",
+            "constituency_code": 180
+        }
+    },
+    {
+        "pk": 181,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Narok South",
+            "constituency_code": 181
+        }
+    },
+    {
+        "pk": 182,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Narok West",
+            "constituency_code": 182
+        }
+    },
+    {
+        "pk": 183,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kajiado North",
+            "constituency_code": 183
+        }
+    },
+    {
+        "pk": 184,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kajiado Central",
+            "constituency_code": 184
+        }
+    },
+    {
+        "pk": 185,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kajiado East",
+            "constituency_code": 185
+        }
+    },
+    {
+        "pk": 186,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kajiado West",
+            "constituency_code": 186
+        }
+    },
+    {
+        "pk": 187,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kajiado South",
+            "constituency_code": 187
+        }
+    },
+    {
+        "pk": 188,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kipkelion East",
+            "constituency_code": 188
+        }
+    },
+    {
+        "pk": 189,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kipkelion West",
+            "constituency_code": 189
+        }
+    },
+    {
+        "pk": 190,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ainamoi",
+            "constituency_code": 190
+        }
+    },
+    {
+        "pk": 191,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bureti",
+            "constituency_code": 191
+        }
+    },
+    {
+        "pk": 192,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Belgut",
+            "constituency_code": 192
+        }
+    },
+    {
+        "pk": 193,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Sigowet/Soin",
+            "constituency_code": 193
+        }
+    },
+    {
+        "pk": 194,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Sotik",
+            "constituency_code": 194
+        }
+    },
+    {
+        "pk": 195,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Chepalungu",
+            "constituency_code": 195
+        }
+    },
+    {
+        "pk": 196,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bomet East",
+            "constituency_code": 196
+        }
+    },
+    {
+        "pk": 197,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bomet Central",
+            "constituency_code": 197
+        }
+    },
+    {
+        "pk": 198,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Konoin",
+            "constituency_code": 198
+        }
+    },
+    {
+        "pk": 199,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lugari",
+            "constituency_code": 199
+        }
+    },
+    {
+        "pk": 200,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Likuyani",
+            "constituency_code": 200
+        }
+    },
+    {
+        "pk": 201,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Malava",
+            "constituency_code": 201
+        }
+    },
+    {
+        "pk": 202,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Lurambi",
+            "constituency_code": 202
+        }
+    },
+    {
+        "pk": 203,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Navakholo",
+            "constituency_code": 203
+        }
+    },
+    {
+        "pk": 204,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mumias West",
+            "constituency_code": 204
+        }
+    },
+    {
+        "pk": 205,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mumias East",
+            "constituency_code": 205
+        }
+    },
+    {
+        "pk": 206,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Matungu",
+            "constituency_code": 206
+        }
+    },
+    {
+        "pk": 207,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Butere",
+            "constituency_code": 207
+        }
+    },
+    {
+        "pk": 208,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Khwisero",
+            "constituency_code": 208
+        }
+    },
+    {
+        "pk": 209,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Shinyalu",
+            "constituency_code": 209
+        }
+    },
+    {
+        "pk": 210,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ikolomani",
+            "constituency_code": 210
+        }
+    },
+    {
+        "pk": 211,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Vihiga",
+            "constituency_code": 211
+        }
+    },
+    {
+        "pk": 212,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Sabatia",
+            "constituency_code": 212
+        }
+    },
+    {
+        "pk": 213,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Hamisi",
+            "constituency_code": 213
+        }
+    },
+    {
+        "pk": 214,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Luanda",
+            "constituency_code": 214
+        }
+    },
+    {
+        "pk": 215,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Emuhaya",
+            "constituency_code": 215
+        }
+    },
+    {
+        "pk": 216,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mt. Elgon",
+            "constituency_code": 216
+        }
+    },
+    {
+        "pk": 217,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Sirisia",
+            "constituency_code": 217
+        }
+    },
+    {
+        "pk": 218,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kabuchai",
+            "constituency_code": 218
+        }
+    },
+    {
+        "pk": 219,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bumula",
+            "constituency_code": 219
+        }
+    },
+    {
+        "pk": 220,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kanduyi",
+            "constituency_code": 220
+        }
+    },
+    {
+        "pk": 221,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Webuye East",
+            "constituency_code": 221
+        }
+    },
+    {
+        "pk": 222,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Webute West",
+            "constituency_code": 222
+        }
+    },
+    {
+        "pk": 223,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kimilili",
+            "constituency_code": 223
+        }
+    },
+    {
+        "pk": 224,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Tongaren",
+            "constituency_code": 224
+        }
+    },
+    {
+        "pk": 225,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Teso North",
+            "constituency_code": 225
+        }
+    },
+    {
+        "pk": 226,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Teso South",
+            "constituency_code": 226
+        }
+    },
+    {
+        "pk": 227,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nambale",
+            "constituency_code": 227
+        }
+    },
+    {
+        "pk": 228,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Matayos",
+            "constituency_code": 228
+        }
+    },
+    {
+        "pk": 229,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Butula",
+            "constituency_code": 229
+        }
+    },
+    {
+        "pk": 230,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Funyula",
+            "constituency_code": 230
+        }
+    },
+    {
+        "pk": 231,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Budalangi",
+            "constituency_code": 231
+        }
+    },
+    {
+        "pk": 232,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ugenya",
+            "constituency_code": 232
+        }
+    },
+    {
+        "pk": 233,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ugunja",
+            "constituency_code": 233
+        }
+    },
+    {
+        "pk": 234,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Alego Usonga",
+            "constituency_code": 234
+        }
+    },
+    {
+        "pk": 235,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Gem",
+            "constituency_code": 235
+        }
+    },
+    {
+        "pk": 236,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bondo",
+            "constituency_code": 236
+        }
+    },
+    {
+        "pk": 237,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Rarieda",
+            "constituency_code": 237
+        }
+    },
+    {
+        "pk": 238,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kisumu East",
+            "constituency_code": 238
+        }
+    },
+    {
+        "pk": 239,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kisumu West",
+            "constituency_code": 239
+        }
+    },
+    {
+        "pk": 240,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kisumu Central",
+            "constituency_code": 240
+        }
+    },
+    {
+        "pk": 241,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Seme",
+            "constituency_code": 241
+        }
+    },
+    {
+        "pk": 242,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyando",
+            "constituency_code": 242
+        }
+    },
+    {
+        "pk": 243,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Muhoroni",
+            "constituency_code": 243
+        }
+    },
+    {
+        "pk": 244,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyakach",
+            "constituency_code": 244
+        }
+    },
+    {
+        "pk": 245,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kasipul",
+            "constituency_code": 245
+        }
+    },
+    {
+        "pk": 246,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kabondo Kasipul",
+            "constituency_code": 246
+        }
+    },
+    {
+        "pk": 247,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Karachuonyo",
+            "constituency_code": 247
+        }
+    },
+    {
+        "pk": 248,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Rangwe",
+            "constituency_code": 248
+        }
+    },
+    {
+        "pk": 249,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Homa Bay Town",
+            "constituency_code": 249
+        }
+    },
+    {
+        "pk": 250,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ndhiwa",
+            "constituency_code": 250
+        }
+    },
+    {
+        "pk": 251,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mbita",
+            "constituency_code": 251
+        }
+    },
+    {
+        "pk": 252,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Suba",
+            "constituency_code": 252
+        }
+    },
+    {
+        "pk": 253,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Rongo",
+            "constituency_code": 253
+        }
+    },
+    {
+        "pk": 254,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Awendo",
+            "constituency_code": 254
+        }
+    },
+    {
+        "pk": 255,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Suna East",
+            "constituency_code": 255
+        }
+    },
+    {
+        "pk": 256,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Suna West",
+            "constituency_code": 256
+        }
+    },
+    {
+        "pk": 257,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Uriri",
+            "constituency_code": 257
+        }
+    },
+    {
+        "pk": 258,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyatike",
+            "constituency_code": 258
+        }
+    },
+    {
+        "pk": 259,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kuria West",
+            "constituency_code": 259
+        }
+    },
+    {
+        "pk": 260,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kuria East",
+            "constituency_code": 260
+        }
+    },
+    {
+        "pk": 261,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bonchari",
+            "constituency_code": 261
+        }
+    },
+    {
+        "pk": 262,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "South Mugirango",
+            "constituency_code": 262
+        }
+    },
+    {
+        "pk": 263,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bomachoge Borabu",
+            "constituency_code": 263
+        }
+    },
+    {
+        "pk": 264,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bobasi",
+            "constituency_code": 264
+        }
+    },
+    {
+        "pk": 265,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Bomachoge Chache",
+            "constituency_code": 265
+        }
+    },
+    {
+        "pk": 266,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyaribari Masaba",
+            "constituency_code": 266
+        }
+    },
+    {
+        "pk": 267,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Nyaribari Chache",
+            "constituency_code": 267
+        }
+    },
+    {
+        "pk": 268,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitutu Chache North",
+            "constituency_code": 268
+        }
+    },
+    {
+        "pk": 269,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitutu Chache South",
+            "constituency_code": 269
+        }
+    },
+    {
+        "pk": 270,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kitutu Masaba",
+            "constituency_code": 270
+        }
+    },
+    {
+        "pk": 271,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "West Mugirango",
+            "constituency_code": 271
+        }
+    },
+    {
+        "pk": 272,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "North Mugirango",
+            "constituency_code": 272
+        }
+    },
+    {
+        "pk": 273,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Borabu",
+            "constituency_code": 273
+        }
+    },
+    {
+        "pk": 274,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Westlands",
+            "constituency_code": 274
+        }
+    },
+    {
+        "pk": 275,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Dagoretti North",
+            "constituency_code": 275
+        }
+    },
+    {
+        "pk": 276,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Dagoretti South",
+            "constituency_code": 276
+        }
+    },
+    {
+        "pk": 277,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Langata",
+            "constituency_code": 277
+        }
+    },
+    {
+        "pk": 278,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kibra",
+            "constituency_code": 278
+        }
+    },
+    {
+        "pk": 279,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Roysambu",
+            "constituency_code": 279
+        }
+    },
+    {
+        "pk": 280,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kasarani",
+            "constituency_code": 280
+        }
+    },
+    {
+        "pk": 281,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Ruaraka",
+            "constituency_code": 281
+        }
+    },
+    {
+        "pk": 282,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Embakasi South",
+            "constituency_code": 282
+        }
+    },
+    {
+        "pk": 283,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Embakasi North",
+            "constituency_code": 283
+        }
+    },
+    {
+        "pk": 284,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Embakasi Central",
+            "constituency_code": 284
+        }
+    },
+    {
+        "pk": 285,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Embakasi East",
+            "constituency_code": 285
+        }
+    },
+    {
+        "pk": 286,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Embakasi West",
+            "constituency_code": 286
+        }
+    },
+    {
+        "pk": 287,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Makadara",
+            "constituency_code": 287
+        }
+    },
+    {
+        "pk": 288,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Kamukunji",
+            "constituency_code": 288
+        }
+    },
+    {
+        "pk": 289,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Starehe",
+            "constituency_code": 289
+        }
+    },
+    {
+        "pk": 290,
+        "model": "ml_setup.ListGeoConstituency",
+        "fields": {
+            "constituency_name": "Mathare",
+            "constituency_code": 290
+        }
+    }
+]

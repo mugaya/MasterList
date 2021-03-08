@@ -1,0 +1,102 @@
+[
+    {
+        "pk": 1,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1001,
+            "regulator_name": "Ministry of Health",
+            "regulator_abbr": "MOH-DMS",
+            "regulation_verb": "Gazette"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1002,
+            "regulator_name": "Kenya MPDB",
+            "regulator_abbr": "KMPDB",
+            "regulation_verb": "Register"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1003,
+            "regulator_name": "Clinical Officers Council",
+            "regulator_abbr": "COC",
+            "regulation_verb": "License"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1004,
+            "regulator_name": "Kenya Medical Laboratory, Tech & Technologists Board",
+            "regulator_abbr": "KMLTTB",
+            "regulation_verb": "Register"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1005,
+            "regulator_name": "Pharmacy & Poisons Board",
+            "regulator_abbr": "PPB",
+            "regulation_verb": "License"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1006,
+            "regulator_name": "Nursing Council of Kenya (Private Practice)",
+            "regulator_abbr": "NCK",
+            "regulation_verb": "License"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1007,
+            "regulator_name": "Other",
+            "regulator_abbr": "Other",
+            "regulation_verb": "Register"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1008,
+            "regulator_name": "Kenya Nutrition and Dietetic Institute",
+            "regulator_abbr": "KNDI",
+            "regulation_verb": ""
+        }
+    },
+    {
+        "pk": 9,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1009,
+            "regulator_name": "Kenya Physiotherapy Board",
+            "regulator_abbr": "PB",
+            "regulation_verb": ""
+        }
+    },
+    {
+        "pk": 10,
+        "model": "ml_setup.Regulator",
+        "fields": {
+            "regulator_code": 1010,
+            "regulator_name": "Kenya Radiation Protection Board",
+            "regulator_abbr": "RPB",
+            "regulation_verb": ""
+        }
+    }
+]

@@ -22,8 +22,11 @@ import ml_auth.views as auth_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main_views.home, name='home'),
-    path('listings', main_views.listings, name='listings'),
-    path('listings/cat-<int:lid>/', main_views.listings, name='listings'),
+    path('listing/', main_views.listings, name='listings'),
+    path('listing/new/', main_views.new_listing, name='new_listing'),
+    path('listing/view/<uuid:lid>', main_views.view_listing, name='view_listing'),
+    path('listing/edit/<uuid:lid>', main_views.edit_listing, name='edit_listing'),
+    path('listing/cat-<int:lid>/', main_views.listings, name='listings'),
     path('search/', main_views.search, name='search'),
     path('api/v1/', include('ml_api.urls')),
     path('reports/', include('ml_reports.urls')),

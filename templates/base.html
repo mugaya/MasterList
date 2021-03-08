@@ -12,6 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
 		<link rel="stylesheet" href="{% static 'plugins/bootstrap-5.0.0/css/bootstrap.min.css' %}" />
+		{% block style_code %}{% endblock style_code %}
 	</head>
 	<body class="is-preload homepage">
 		<div id="page-wrapper">
@@ -70,7 +71,7 @@
 									<section class="widget links">
 										<h3>About</h3>
 										<p>Develop a web-based registry (master list) that can be utilized in different generic use cases
-in the health sector (for instance - health facilities, people, institutions, schools,). An example of the interface - (ttp://kmhfl.health.go.ke/#/facility_filter/results) or (https://play.dhis2.org/2.35.1/dhis-web-maintenance/index.html#/list/organisationUnitSection/organisationUnit )</p>
+in the health sector (for instance - health facilities, people, institutions, schools,). An example of the interface - (http://kmhfl.health.go.ke/#/facility_filter/results) or (https://play.dhis2.org/2.35.1/dhis-web-maintenance/index.html#/list/organisationUnitSection/organisationUnit )</p>
 									</section>
 
 							</div>
@@ -116,6 +117,7 @@ in the health sector (for instance - health facilities, people, institutions, sc
 			<script src="{% static 'js/util.js' %}"></script>
 			<script src="{% static 'js/main.js' %}"></script>
 			<script src="{% static 'plugins/bootstrap-5.0.0/js/bootstrap.bundle.min.js' %}"></script>
+			{% block lazy_js %} {% endblock lazy_js %}
 			
 
 	</body>

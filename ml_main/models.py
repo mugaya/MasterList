@@ -30,7 +30,7 @@ class MasterList(models.Model):
     approval_status = models.CharField(max_length=4, null=True)
     public_visible = models.BooleanField(default=True)
     closed = models.BooleanField(default=False)
-    list_type = models.ForeignKey(Listing, on_delete=models.CASCADE)
+    list_type = models.ForeignKey(Listing, on_delete=models.CASCADE, default=1)
     facility_type = models.ForeignKey(FacilityType, on_delete=models.CASCADE)
     owner_type = models.ForeignKey(OwnerType, on_delete=models.CASCADE)
     is_active = models.BooleanField(default=True)

@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load static %}
+| {% block page_title %} Log in {% endblock %}
+{% block primary %}
+<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div class="row gtr-200">
+				<div class="col-4 col-12-medium">
+					<div id="sidebar">
+
+						<!-- Sidebar -->
+							<section>
+								<h3>Search Params</h3>
+								<p>Details</p>
+								<footer>
+									<a href="#" class="button icon solid fa-info-circle">Find out more</a>
+								</footer>
+							</section>
+
+					</div>
+				</div>
+				<div class="col-8 col-12-medium imp-medium">
+					<div id="content">
+						<div id="errors">
+							{% if messages %}
+		                      {% for message in messages %}
+		                        {% if 'error' in message.tags %}
+		                      <div id="messages" class="alert alert-danger fade in m-b-15">
+		                      <span class="close" data-dismiss="alert">×</span>
+		                      <i class="fa fa-info fa-2x pull-left"></i>
+		                        {% else %}
+		                      <div id="messages" class="alert alert-success fade in">
+		                      <span class="close" data-dismiss="alert">×</span>
+		                      <i class="fa fa-check fa-2x pull-left"></i>
+		                        {% endif %}    
+		                      <p>{{ message }}</p>
+		                        </div>
+		                     {% endfor %}
+		                  {% endif %}
+		                  {% if form.errors %}
+		                      <div id="messages" class="alert alert-danger fade in m-b-15">
+		                      <span class="close" data-dismiss="alert">×</span>
+		                      <i class="fa fa-info fa-2x pull-left"></i>
+		                      {{ form.non_field_errors }}
+		                      </div>
+		                  {% endif %}
+		              </div>
+
+						<!-- Content -->
+							<form id="login" action="." method="POST">
+                                {% csrf_token %}
+								<h2>Login to access more</h2>
+
+								{{  form.username }} <br/>
+
+								{{  form.password }} <br/>
+
+								<button type="submit" name="login" class="button"> Login </button>
+
+							</form>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock primary %}		

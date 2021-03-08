@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+| {% block page_title %} Error Page - {{ error }} {% endblock %}
+{% block primary %}
+
+<!-- Main -->
+	<div id="main-wrapper">
+		<div class="container">
+			<div id="content">
+
+				<!-- Content -->
+					<article>
+
+						<h2>Error Page</h2>
+
+						<p>{{ reason }}</p>
+
+					</article>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock primary %}

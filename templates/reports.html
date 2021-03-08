@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+{% load static %}
+| {% block page_title %} Reports {% endblock %}
+
+{% block style_code %}
+<link rel="stylesheet" href="{% static 'plugins/DataTables-1.10.23/css/datatables.min.css' %}" />
+<link rel="stylesheet" href="{% static 'plugins/DataTables-1.10.23/css/buttons.dataTables.min.css' %}" />
+
+{% endblock style_code %}
+{% block primary %}
+<!-- Main -->
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row gtr-200">
+			<div class="col-4 col-12-medium">
+				<div id="sidebar">
+
+					<!-- Sidebar -->
+						<section>
+							<h3>Report Params</h3>
+							<form id="reports" action="." method="POST">
+								{% csrf_token %}
+								<div class="row">
+			                        <div class="form-group">
+			                            <label for="name">Date created from</label>
+			                            {{ form.date_from }}
+			                        </div>
+			                        <div class="form-group">
+			                            <label for="official_name">Date created to</label>
+			                            {{ form.date_to }}
+			                        </div>
+			                    </div>
+								<footer>
+									<button type="submit" class="button icon solid fa-info-circle">Generate Report</button>
+								</footer>
+							</form>
+						</section>
+
+				</div>
+			</div>
+			<div class="col-8 col-12-medium imp-medium">
+				<div id="content">
+
+					<!-- Content -->
+						<article>
+
+							<h2>Report details</h2>
+
+							{% if results %}
+							<table id="tblReports" class="table">
+								<thead>
+								   <tr><th>#</th><th>Code</th><th>Name</th><th>Name</th></tr>
+								</thead>
+								<tbody>
+								{% for r in results %}
+								    <tr><td>{{ forloop.counter }}</td><td>{{ r.code }}</td><td>{{ r.name }}</td><td>{{ r.timestamp_created }}</td></tr>
+								{% endfor %}
+							     </tbody>								
+							</table>
+
+							{% else %}
+							<p>No Results matching your query</p>
+							{% endif %}
+
+						</article>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock primary %}
+{% block lazy_js %}
+<script src="{% static 'plugins/DataTables-1.10.23/js/datatables.min.js' %}"></script>
+ <script src="{% static 'plugins/DataTables-1.10.23/js/dataTables.buttons.min.js' %}"></script>
+<script src="{% static 'plugins/DataTables-1.10.23/js/jszip.min.js' %}"></script>
+<script src="{% static 'plugins/DataTables-1.10.23/js/pdfmake.min.js' %}"></script>
+<script src="{% static 'plugins/DataTables-1.10.23/js/vfs_fonts.js' %}"></script>
+<script src="{% static 'plugins/DataTables-1.10.23/js/buttons.html5.min.js' %}"></script>
+<script src="{% static 'plugins/DataTables-1.10.23/js/buttons.print.min.js' %}"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.datepicker').datepicker();
+    $('#tblReports').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ]
+    } );
+} );
+{% endblock lazy_js %}
