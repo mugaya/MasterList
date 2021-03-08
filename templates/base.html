@@ -32,11 +32,11 @@
 								<ul>
 									<li class="current"><a href="{% url 'home' %}">Home</a></li>
 									<li>
-										<a href="{% url 'listings' %}">Listings</a>
+										<a href="#">Listings</a>
 										<ul>
 											<li><a href="{% url 'listings' lid=1 %}">Health Facilities</a></li>
 											<li><a href="{% url 'listings' lid=2 %}">Pharmacies</a></li>
-											<li><a href="{% url 'listings' lid=3 %}">Others</a></li>
+											<li><a href="{% url 'listings' %}">All Listings</a></li>
 										</ul>
 									</li>
 									<li><a href="{% url 'search' %}">Search</a></li>
@@ -44,7 +44,7 @@
 									<li><a href="{% url 'reports_home' %}">Reports</a></li>
                                     {% if user.is_authenticated %}
                                     <li>
-										<a href="{% url 'listings' %}">Hi {{ request.user.username }}!</a>
+										<a href="#">Hi {{ request.user.username }}!</a>
 									    <ul>
 											<li><a href="/admin/">Administration</a></li>
 											<li><a href="{% url 'logout' %}">Logout</a></li>

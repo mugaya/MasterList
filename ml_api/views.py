@@ -44,6 +44,7 @@ class SearchListView(APIView):
         # Get params and this query to be converted to a vector search
         name = request.GET.get('name')
         approval_status = request.GET.get('approval_status')
+        print('params', request.GET)
         if name:
             queryset = queryset.filter(name__icontains=name)
         if approval_status:
@@ -69,9 +70,7 @@ class FacilityViewSet(viewsets.ViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def list(self, request, format=None):
-        content = {
-            'status': 'Listing not supported'
-        }
+        content = {'status': 'Listing not supported'}
         return Response(content)
 
     def create(self, request):
@@ -87,8 +86,7 @@ class FacilityViewSet(viewsets.ViewSet):
 
     def update(self, request, pk=None):
         instance = self.queryset.get(pk=pk)
-        serializer = self.serializer_class(instance, data=request.data,
-                                           partial=True)
+        serializer = self.serializer_class(instance, data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response(serializer.data)
@@ -103,5 +101,14 @@ class FacilityViewSet(viewsets.ViewSet):
 
     def destroy(self, request, pk=None):
         instance = self.queryset.get(pk=pk)
-        instance.delete()
-        return Response(status=status.HTTP_204_NO_CONTENT)
+        if instance.approved and instance.code:
+            data = {"is_void": "True", "pk": pk}
+            serializer = self.serializer_class(
+                instance, data=data, partial=True)
+            serializer.is_valid(raise_exception=True)
+            serializer.save()
+            content = {'status': 'Facility Voided'}
+        else:
+            instance.delete()
+            content = {'status': 'Facility Deleted'}
+        return Response(content, status=status.HTTP_204_NO_CONTENT)

@@ -8,7 +8,7 @@ from ml_setup.utils import dump_to_csv
 
 class MasterListAdmin(admin.ModelAdmin):
     search_fields = ['code', 'name']
-    list_display = ['code', 'name', 'approved']
+    list_display = ['id', 'code', 'name', 'approved', 'is_void']
     ordering = ('-timestamp_created',)
 
     list_filter = ['approved', 'is_void', 'timestamp_created']

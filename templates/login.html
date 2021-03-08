@@ -22,26 +22,20 @@
 				</div>
 				<div class="col-8 col-12-medium imp-medium">
 					<div id="content">
-						<div id="errors">
+						<div id="error-message">
 							{% if messages %}
 		                      {% for message in messages %}
 		                        {% if 'error' in message.tags %}
-		                      <div id="messages" class="alert alert-danger fade in m-b-15">
-		                      <span class="close" data-dismiss="alert">×</span>
-		                      <i class="fa fa-info fa-2x pull-left"></i>
+		                      <div id="messages" class="alert alert-danger in m-b-15">
 		                        {% else %}
-		                      <div id="messages" class="alert alert-success fade in">
-		                      <span class="close" data-dismiss="alert">×</span>
-		                      <i class="fa fa-check fa-2x pull-left"></i>
+		                      <div id="messages" class="alert alert-success in">
 		                        {% endif %}    
 		                      <p>{{ message }}</p>
 		                        </div>
 		                     {% endfor %}
 		                  {% endif %}
 		                  {% if form.errors %}
-		                      <div id="messages" class="alert alert-danger fade in m-b-15">
-		                      <span class="close" data-dismiss="alert">×</span>
-		                      <i class="fa fa-info fa-2x pull-left"></i>
+		                      <div id="messages" class="alert alert-danger in m-b-15">
 		                      {{ form.non_field_errors }}
 		                      </div>
 		                  {% endif %}

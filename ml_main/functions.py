@@ -32,8 +32,8 @@ def get_geos(request, lid):
     """Method to pick all listings services."""
     try:
         geos = MasterListGeo.objects.get(master_list_id=lid)
-    except Exception as e:
-        raise e
+    except Exception:
+        return {}
     else:
         return geos
 

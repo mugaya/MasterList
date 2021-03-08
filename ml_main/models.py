@@ -1,7 +1,10 @@
 import uuid
+from difflib import SequenceMatcher
 from django.db import models
 from django.contrib.gis.db import models as gmodels
 from django.utils import timezone
+from django.db.models.signals import pre_save
+from django.dispatch import receiver
 
 from .utils import unique_fid_generator
 
@@ -157,3 +160,20 @@ class MasterListGeo(gmodels.Model):
     def __str__(self):
         """To be returned by admin actions."""
         return 'Geo : %s' % (self.master_list)
+
+
+@receiver(pre_save, sender=MasterList)
+def check_name_change(sender, instance, **kwargs):
+    """Method to check complete change of names."""
+    try:
+        obj = sender.objects.get(pk=instance.pk)
+    except sender.DoesNotExist:
+        pass
+    else:
+        old_name = obj.name.upper()
+        new_name = instance.name.upper()
+        sm = SequenceMatcher(None, old_name, new_name)
+        sm_ratio = round(sm.ratio(), 2) * 100
+        if sm_ratio < 70:
+            raise Exception('Complete change of Name is NOT allowed.')
+
